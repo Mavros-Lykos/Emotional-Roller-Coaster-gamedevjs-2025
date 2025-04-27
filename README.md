@@ -48,8 +48,8 @@ For detailed game mechanics, controls and documentation, see [renpy.md](renpy.md
 #### Option 1: Clone from GitHub
 1. Install [Git](https://git-scm.com/downloads) if you don't have it
 2. Open a terminal/command prompt
-3. Run: `git clone https://github.com/yourusername/emotional-roller-coaster.git`
-4. Navigate to the game directory: `cd emotional-roller-coaster`
+3. Run: `git clone https://github.com/Mavros-Lykos/Emotional-Roller-Coaster-gamedevjs-2025.git`
+4. Navigate to the game directory: `cd Emotional-Roller-Coaster-gamedevjs-2025`
 5. Install Ren'Py SDK from [renpy.org](https://www.renpy.org/latest.html)
 6. Open the project with Ren'Py launcher and click "Launch Project"
 
@@ -120,6 +120,7 @@ emotional-roller-coaster/
 │   ├── screens.rpy        # UI screens definition
 │   |── styles.rpy         # Styles for the game components
 │   ├── screens.rpy        # UI screens definition
+│   ├── functions.rpy      # Helper functions for the game 
 │   └── styles.rpy         # Styles for the game components
 ├── assets/                # External assets (screenshots etc.)
 │   ├── cover.png          # Game cover image
@@ -161,6 +162,7 @@ Additional developer options are available in the "preferences" menu of the Ren'
 - `screens.rpy`: UI screens definition
 - `gui.rpy`: Visual styling of the game
 - `styles.rpy`: Styling components in the game
+- `functions.rpy`: Helper functions for the game
 
 
 ### Adding Assets

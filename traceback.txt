@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 82, in script
+    image main = im.Scale("images/main_menu_bg.webp")
+  File "game/script.rpy", line 82, in <module>
+    image main = im.Scale("images/main_menu_bg.webp")
+TypeError: __init__() missing 2 required positional arguments: 'width' and 'height'
+
+-- Full Traceback -----------------log.txt-------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 82, in script
+    image main = im.Scale("images/main_menu_bg.webp")
+  File "D:\SOFTWARE\RenPy\renpy-8.3.7-sdk\renpy\ast.py", line 933, in execute
+    img = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "D:\SOFTWARE\RenPy\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 82, in <module>
+    image main = im.Scale("images/main_menu_bg.webp")
+TypeError: __init__() missing 2 required positional arguments: 'width' and 'height'
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.7.25031702
+Emotional Rollcoaster 2 1.0
+Sat Apr 26 18:42:14 2025

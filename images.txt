@@ -1,0 +1,135 @@
+image main = "images/main_menu_bg.webp"
+image dorm = "images/dorm.webp"
+image dorm_blur = im.Scale("images/blur/dorm.png", 1920, 1080)
+image campus = "images/campus.jpg"
+image campus_blur = im.Scale("images/blur/campus.png", 1920, 1080)
+image cafeteria = "images/cafeteria.jpg"
+image cafeteria_blur = im.Scale("images/blur/cafeteria.png", 1920, 1080)
+image studyroom = "images/study_room.jpg"
+image studyroom_blur = im.Scale("images/blur/study_room.png", 1920, 1080)
+image garden = "images/garden.jpg"
+image garden_blur = im.Scale("images/blur/garden.png", 1920, 1080)
+
+end_of_chapter: image
+    "Your journey through the day has shaped your emotional balance."    
+    "Let's see what future lies ahead for you based on your choices..."
+
+"The Balanced Path"
+    
+    "You complete your university years with strong relationships, good academic standing, and healthy financial habits."
+    "Your balanced approach to life's challenges has prepared you well for the future. You find yourself with job offers, genuine friendships, and the emotional stability to handle life's ups and downs."
+    "Your professors respect your work ethic, your friends value your reliable nature, and potential employers see you as someone who can navigate complex situations with maturity."
+    "While your life isn't perfect, you have the tools to navigate whatever comes your way. You've learned that the middle path is often the wisest one."
+    "ACHIEVEMENT: Balance Master - You've found the elusive middle path!"
+
+The Selfless Martyr"
+    
+    "Your extreme generosity left you emotionally and financially drained. You graduated with significant debt from constantly helping others at your own expense."
+    "Friends and classmates grew accustomed to your sacrifices, often taking advantage of your good nature without reciprocating."
+    "By age 40, you're working extra jobs to support others' emergencies while neglecting your own needs. Your health suffers as you consistently put yourself last."
+    "You realize too late that helping others requires first maintaining your own stability. True kindness must be balanced with self-care."
+    "ACHIEVEMENT: Heart of Gold - Sometimes too precious for your own good"
+
+ "The Isolated Success"
+    
+    "Your focus on self-preservation alienated potential allies and friends. While you achieved academic success, you built a reputation as someone not to be trusted or relied upon." 
+    "Years later, you find professional advancement difficult despite your competence, as networking opportunities evaporate when colleagues discover your history of self-centered behavior."
+    "Your achievements feel hollow without anyone to share them with. The corner office has a great view, but no one ever stops by to chat."
+    "ACHIEVEMENT: Lone Wolf - Success at the cost of connection"
+
+ "The Fallen Star"
+    
+    "Your arrogance led you to overestimate your abilities and dismiss valuable feedback. Initial successes reinforced your superiority complex until you faced challenges beyond your skills." 
+    "Your refusal to acknowledge limitations resulted in a spectacular professional failure that became campus legend. Former classmates still tell stories about your dramatic downfall."  
+    "Years later, you struggle to rebuild your reputation, bitter about opportunities lost through pride. You've learned the hard way that confidence without humility leads to blindness." 
+    "ACHIEVEMENT: Icarus Effect - You flew too close to the sun"
+
+"The Invisible Graduate"
+    
+    "Your constant self-doubt prevented you from speaking up in class, applying for opportunities, or forming meaningful connections."  
+    "You graduated with decent grades but no recommendation letters or professional contacts. Your career progresses slowly as you watch less qualified but more confident peers advance past you."   
+    "You often wonder about the life you might have had if you'd believed in yourself more. The ideas you never shared, the chances you never took haunt your quiet moments." 
+    "ACHIEVEMENT: Untapped Potential - The world missed out on your gifts"
+
+ 
+"The Eternal Doormat"   
+    "Your excessive patience meant you never established boundaries. People regularly took advantage of your time and energy, knowing you wouldn't object."  
+    "You became the person always waiting for recognition that never came, the one who would tolerate any behavior without complaint."    
+    "By mid-life, you harbor deep resentment toward friends and colleagues who advanced while you patiently waited your turn, a turn that never arrived. You realize too late that patience without assertion is simply surrender."
+    "ACHIEVEMENT: Saint's Patience - Martyrdom by a thousand inconveniences"
+
+ "The Burning Bridge"
+    
+    "Your impulsive reactions and quick temper created a trail of damaged relationships. You developed a reputation for being brilliant but impossible to work with." 
+    "Job opportunities disappeared after reference checks, and your social circle narrowed to those with similarly short fuses. Each outburst seemed justified in the moment, but the cumulative cost was enormous."
+    "You frequently wonder how different life might be if you'd counted to ten before responding. So many doors closed because of words spoken in haste."
+    "ACHIEVEMENT: Powder Keg - Quick to ignite, difficult to extinguish"
+
+"The Wealth Without Joy"
+    
+    "Your obsession with saving every penny meant missing formative experiences and connections during university. You graduated debt-free but with few memories or friends."
+    "By middle age, you've accumulated impressive wealth but struggle to enjoy it, feeling anxiety about any purchase. Your spacious home feels empty, your time filled with counting and recounting your savings."
+    "Your health suffers from years of choosing the cheapest rather than the healthiest options. You've gained financial security but lost the ability to find pleasure in simple indulgences."
+    "ACHIEVEMENT: Dragon's Hoard - Wealth accumulated but never enjoyed"
+
+"The Golden Handcuffs"
+    
+    "Your pattern of impulsive spending snowballed into crippling debt. The stress of financial insecurity follows you decades after graduation, limiting your career choices to those that pay the most rather than fulfill you." 
+    "Relationships strain under money arguments, and retirement seems like an impossible dream. Every paycheck is spent before it arrives, leaving you perpetually anxious about unexpected expenses."
+    "You wonder if those designer clothes and lavish parties were worth the decades of financial anxiety that followed. The momentary pleasures have long faded, but the debt remains."
+    "ACHIEVEMENT: Champagne Tastes, Water Budget - The high cost of living for the moment"    
+
+"The Truth at All Costs"
+    
+    "Your commitment to brutal honesty regardless of context earned you a reputation for cruelty disguised as principle. Job interviews ended abruptly after unnecessarily frank assessments of potential employers."
+    "Relationships withered under your unfiltered observations. You prided yourself on never telling a lie, but failed to recognize how truth without compassion becomes a weapon."
+    "In middle age, you find yourself respected for integrity but rarely invited anywhere twice, your honesty untempered by kindness. The truth you value so highly has become a barrier between you and others."
+    "ACHIEVEMENT: Brutal Truth - Honesty without mercy is merely cruelty"
+
+ "The House of Cards"
+    
+    "Your pattern of convenient lies and misrepresentations created a precarious existence. You advanced quickly through charm and fabrication, but lived in constant fear of discovery."  
+    "Eventually, inconsistencies in your stories caught up with you, resulting in professional disgrace and personal rejection. Your carefully constructed persona collapsed under scrutiny."
+    "Years later, you struggle to rebuild trust with those who wonder if anything you say is true. You've learned that shortcuts built on deception lead to longer, harder paths in the end."
+    "ACHIEVEMENT: Web Weaver - Tangled in your own creation"
+
+ "The Bankrupt Saint"
+    
+    "Your generosity without financial boundaries led to financial ruin. You're loved by many but unable to help anyone effectively anymore, including yourself."  
+    "You live in a small apartment surrounded by thank-you cards but struggling to pay bills. The people you helped rarely return when you're the one in need." 
+    "Looking back, you realize that sustainable giving requires sustainable resources. Your heart was in the right place, but your finances weren't structured to support your generosity."
+    "ACHIEVEMENT: Generous to a Fault - Literally gave until it hurt"
+    
+"The Silent Sufferer"
+    
+    "Your combination of infinite patience and dishonesty created a life where you never express your true feelings. You've become a mystery even to yourself, going through the motions while suppressing your authentic voice." 
+    "Your relationships feel hollow, built on a foundation of what you thought others wanted rather than truth. Decades pass as you smile and nod through discomfort, never expressing your real needs or desires."
+    "Eventually, you realize you've become so good at hiding your truth that you can no longer find it yourself."
+    "ACHIEVEMENT: Mask Collector - Lost behind the faces you show others"
+
+"The Anxious Accumulator"
+    
+    "Your combination of extreme frugality and lack of confidence created a life built on fear. You save diligently but never feel secure enough to enjoy the fruits of your discipline."
+    "Major life opportunities pass by as you hesitate, doubting your readiness or worthiness. The home you carefully saved for becomes a fortress rather than a haven."
+    "By retirement, you have more than enough resources but lack the confidence to change routines or try new experiences. Your financial security became another chain rather than the freedom it should have provided."
+    "ACHIEVEMENT: Safety Net Prisoner - Caught in the web of your own caution"
+
+
+define config.window_icon = "gui/window_icon.png"
+
+ background "gui/overlay/emotion_tracker.png" need a background svg for emotional points display 
+mathakane awasane lakunu wetune anna e tika wetenawawane mulin awasthawala anna e then walata
+
+ background "gui/overlay/hint_bg.png" mokakahari sannas pathrayak wage ekak marune
+
+ background "gui/overlay/history_bg.png" nikan makkahari paper ekak wage history points wetena thenata
+
+background "gui/overlay/about_bg.png" about game page background
+
+background "gui/overlay/tutorial_bg.png" tutorial page background
+
+background "gui/overlay/dev_note_bg.png" develper note background
+
+image roommate normal = "images/roommate_normal.png"
+
+image classmate normal = "images/classmate_normal.png"
